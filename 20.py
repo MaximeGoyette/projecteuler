@@ -1,0 +1,1 @@
+print sum([int(x) for x in str(reduce(lambda a, b: a*b, range(1, 101)))])
